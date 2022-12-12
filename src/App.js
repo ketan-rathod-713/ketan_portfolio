@@ -1,6 +1,6 @@
 
 import './App.css';
-import { useContext} from 'react'
+// import { useContext} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About'
@@ -9,10 +9,10 @@ import Resume from './pages/Resume';
 import ThemeState from './context/themeState';
 import Navbar from './components/Navbar';
 import Projects from './pages/Projects';
-import themeContext from './context/themeContext';
+// import themeContext from './context/themeContext';
 
 function App() {
-const Theme = useContext(themeContext);
+// const Theme = useContext(themeContext);
 
   return (
 

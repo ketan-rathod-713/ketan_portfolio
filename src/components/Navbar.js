@@ -1,7 +1,6 @@
 import Navbtn from "./Navbtn";
 import React, { useContext } from "react";
 import themeContext from "../context/themeContext";
-import Button from '@mui/material/Button';
 import Switch from '@mui/material/Switch'
 
 function Navbar(props) {
