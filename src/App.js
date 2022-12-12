@@ -1,12 +1,12 @@
 
 import './App.css';
-import {useState, useContext} from 'react'
+// import { useContext} from 'react'
 import Navbar from './components/Navbar';
 import ThemeState from './context/themeState';
-import themeContext from './context/themeContext';
+// import themeContext from './context/themeContext';
 
 function App() {
-const Theme = useContext(themeContext);
+// const Theme = useContext(themeContext);
 
   return (
     <ThemeState>

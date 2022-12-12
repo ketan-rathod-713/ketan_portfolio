@@ -1,5 +1,5 @@
 import Navbtn from "./Navbtn";
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import themeContext from "../context/themeContext";
 
 function Navbar(props) {
