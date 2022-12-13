@@ -23,7 +23,7 @@ function App() {
     <div className="App w-screen">
      <Navbar/>
     </div>
-    </ThemeState>
+    
       <Routes className="relative z-10">
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -32,6 +32,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
     {/* </Suspense> */}
+    </ThemeState>
   </Router>
 </div>
   );
