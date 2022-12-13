@@ -43,7 +43,7 @@ const Navbar = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-            <Link to={link.link} className=' hover:text-gray-300 duration-500'>{link.name}</Link>
+            <Link to={link.link} onClick={()=>{setOpen(false)}} className=' hover:text-gray-300 duration-500'>{link.name}</Link>
               
             </li>
           ))
