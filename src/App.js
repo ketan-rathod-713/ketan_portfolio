@@ -24,7 +24,7 @@ function App() {
      <Navbar/>
     </div>
     </ThemeState>
-      <Routes>
+      <Routes className="relative z-10">
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
