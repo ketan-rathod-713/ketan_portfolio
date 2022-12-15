@@ -16,7 +16,7 @@ function App() {
 
   return (
 
-<div>
+<div className='h-screen'>
 <Router>
     {/* <Suspense fallback={<div>Loading...</div>}> */}
     <ThemeState>
