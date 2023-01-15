@@ -9,11 +9,11 @@ function Projects() {
     <HeadingTop>
       Projects
     </HeadingTop>
-    <div className="p-2 md:flex md:justify-between flex-wrap">
+    <div className="p-2 sm:flex sm:flex-col md:flex-row md:flex md:justify-between flex-wrap">
       <Project></Project>
       <Project></Project>
       <Project></Project>
-      <Project></Project>
+     
     </div>
     </Main>
   </div>;

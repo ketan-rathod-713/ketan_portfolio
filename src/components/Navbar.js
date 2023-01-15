@@ -15,14 +15,14 @@ const Navbar = () => {
     const theme = Theme.state.theme;
     console.log(theme)
     // for toggling the mode of the page dark and light
-    const toggleMode = ()=>{
-      const mode = Theme.state.theme;
-      if(mode === 'light'){
-        Theme.update({"theme":"dark"})
-      } else {
-        Theme.update({"theme":"light"})
-      }
-    }
+    // const toggleMode = ()=>{
+    //   const mode = Theme.state.theme;
+    //   if(mode === 'light'){
+    //     Theme.update({"theme":"dark"})
+    //   } else {
+    //     Theme.update({"theme":"light"})
+    //   }
+    // }
 
 
   return (
@@ -50,9 +50,9 @@ const Navbar = () => {
             </li>
           ))
         }
-        <li className='md:ml-8 text-2xl md:my-0 my-7'>
+        {/* <li className='md:ml-8 text-2xl md:my-0 my-7'>
         <ion-icon onClick={toggleMode} name="contrast-outline"></ion-icon>
-        </li>
+        </li> */}
 
       </ul>
       </div>
